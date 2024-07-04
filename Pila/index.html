@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .plato{
+            width: 20rem;
+            height: auto;
+            font-size: 20 px;
+            border: 1px solid #000;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <button onclick = "htmlPush()">😍push</button>
+    <input type="text" id="value">
+    <br>
+    <button onclick = "htmlPop()" >😒pop</button>
+    <button onclick = "htmlEmpty()" >😢empty</button>
+    <button onclick = "htmlTop()" >😶‍🌫️top</button>
+    <br>
+    <!-- <form id="replace-form"> -->
+      <label for="find">Valor a reemplazar:</label>
+      <input type="text" id="find" name="find">
+      <br><br>
+      <label for="value">Nuevo valor:</label>
+      <input type="text" id="newValue" name="value">
+      <br><br>
+      <button onclick = "replaceFirst()" >Reemplazar</button>
+    <!-- </form> -->
+
+
+    <div id="pila"></div>
+
+    <script src = "script.js"></script>
+</body>
+</html>

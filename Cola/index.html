@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cola</title>
+
+    <style>
+        .vergil{
+            width: 4rem;
+            height: 8rem;
+            display: inline-block;
+            border: 1px solid white;
+        }
+        .vergil > img{
+            height: 60%;
+            width: 100%;
+            object-fit: contain;
+        }
+        .vergil > p{
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <input type="text" id="input">
+    <button onclick = htmlPush()>😍Encolar</button>
+    <button onclick = htmlPop()>😶‍🌫️Avanzar la cola</button>
+    <button onclick = htmlEmpty()>🤷‍♂️Esta vacia?</button>
+    <button onclick = htmlFront()>👌Proximo en la cola</button>
+    <button onclick = htmlVaciar()>Vaciar Cola</button>
+
+    <div id ="cola-contenedor"></div>
+
+
+    <script src = "script.js"></script>
+
+</body>
+</html>

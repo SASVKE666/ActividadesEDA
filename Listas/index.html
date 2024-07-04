@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .elemento{
+            display: inline-block;
+            padding: 5px 20px;
+            text-align: center;
+        }
+        .elemento:hover{
+            cursor: pointer;
+            background-color: blueviolet;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+
+    <form onsubmit="htmlEnviar(event)">
+        <input type="text" placeholder="Ingrese un dato." id="input">
+    </form>
+    
+    <button onclick="htmlClear()">Limpiar</button>
+    <div id="contenedor"></div>
+    
+    <script src = "script.js"></script>
+</body>
+</html>
