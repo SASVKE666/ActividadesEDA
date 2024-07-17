@@ -3,6 +3,7 @@ class HashTable {
     this.size = 500;
     this.table = new Array(this.size);
   }
+ 
 }
 
 HashTable.prototype.hash = function(key){
@@ -47,3 +48,4 @@ tablaHash.put(6, "Diosito");
 tablaHash.put(6, "Jesus");
 console.log(tablaHash);
 console.log(tablaHash.get(6));
+
